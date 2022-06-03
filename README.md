@@ -55,4 +55,7 @@ You can fork this repository and download it. This repository has a `requirement
 
 # How to Run
 
-Follow this read me file and run all the notebooks in the same order. Don't forget to install `import-ipynb` and `ipytest` otherwise it will crash the test notebook.
+Follow this read me file and run all the notebooks in the same order. Don't forget to install `import-ipynb` and `ipytest` otherwise the test notebook will crash.
+
+
+#   HAPPY PYTHON LEARNING!
