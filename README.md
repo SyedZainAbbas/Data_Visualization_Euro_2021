@@ -47,3 +47,12 @@ Individual accolades are an important aspect of any sporting event. This project
 ## Project_Euro
 
 Testing is an important part of any progam. This project has also a few test cases. First of all, `ipytest` needs to be installed for enabling jupter notebook to run tests on it. Also, `import-ipynb` needs to be installed to import notebooks into the test notebook. The test cases are rather simple and self-explanatory. These test cases ensure that the data is being scraped from the webistes correctly, and stored in the lists and classes properly.
+
+
+# How to Install
+
+You can fork this repository and download it. This repository has a `requirements.txt` file that has the information of all the rquired libraries to run this program.
+
+# How to Run
+
+Follow this read me file and run all the notebooks in the same order. Don't forget to install `import-ipynb` and `ipytest` otherwise it will crash the test notebook.
