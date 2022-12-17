@@ -23,7 +23,7 @@ https://www.bbc.com/sport/football/european-championship/scores-fixtures/2021-07
 
 A clear pattern can be seen in these urls. The base url is same for all the matches however, the dates are changing at the end. So the dates have to be appended dynamically to the base url, which stays the same for all the urls. The tournament started on `2021-06-11` and it ended on `2021-07-11` 
 
-There are three functins in this notebook. The first one takes the starting and the ending dates of the tounament and gives a list of the urls. The function `all_results` plays the main role in this notebook. It takes the list of the urls and requests for the html text from these pages one by one. Finally, it returns the list of results of all the matches of the tounament. The function `show_match_reuslt` specifies the structure of the results. The results are basically divided in two types. The program in the `all_results` checks whether a match was held after **26.06.21** and if it did, the program also checks if a match went to penalties or not.
+There are three functions in this notebook. The first one takes the starting and the ending dates of the tounament and gives a list of the urls. The function `all_results` plays the main role in this notebook. It takes the list of the urls and requests for the html text from these pages one by one. Finally, it returns the list of results of all the matches of the tounament. The function `show_match_reuslt` specifies the structure of the results. The results are basically divided in two types. The program in the `all_results` checks whether a match was held after **26.06.21** and if it did, the program also checks if a match went to penalties or not.
 
 ## Euro_2020_OOP
 
